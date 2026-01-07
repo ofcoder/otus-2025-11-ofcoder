@@ -35,6 +35,11 @@ foreach( [
      */
      __DIR__ . '/../../vendor/autoload.php',
 
+      /**
+      *App classes
+     */
+     __DIR__ . '/../App/autoload.php',
+
     ]
     as $filePath )
 {
